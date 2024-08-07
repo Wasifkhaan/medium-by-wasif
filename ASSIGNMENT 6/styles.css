@@ -1,0 +1,134 @@
+body {
+    font-family: Arial,Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 247, 238);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left h1.medium-logo {
+    font-size: 35px;
+    margin: 10px;
+    font-family: 'Times New Roman', serif;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.header-right .get-started {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.banner {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 174, 0, 0.989));
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: solid;
+}
+
+.banner p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.banner a {
+    color: #000;
+    text-decoration: underline;
+}
+main {
+    padding: 35px;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main .main-heading {
+    font-size: 85px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 0px;
+    line-height: 96px;
+    color: #242424;
+}
+
+main p.subheading {
+    line-height: 28px;
+    font-size: 22px;
+    color: #242424;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #242424;
+    margin: 1rem 0;
+}
+
+.start-reading {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.images {
+    margin-top: 0px;
+    display: flex;
+    position: relative;
+    align-content: end;
+}
+@media only screen and (min-width: 904px) and (max-width: 1079.98px) {
+    .center {
+        margin: 75px 64px 0;
+    }
+}
+
+.images .flower-img {
+    position: absolute;
+    top: -346px;
+    left: 63%;
+    width: 460px;
+    height: 413px;
+    align-content: end;
+}
+footer {
+    padding: 10px;
+    border-top: 1px solid #242424;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
